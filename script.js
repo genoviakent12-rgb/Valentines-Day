@@ -63,7 +63,7 @@ noBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
     title.textContent = "Give me a flying kiss right now!!!";
 
-    catImg.src = "images/catGifVAL.gif";
+    catImg.src = "catGifVAL.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
