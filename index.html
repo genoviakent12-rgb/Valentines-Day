@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Happy Valentines, Langga</title>
+  </head>
+  <body>
+    <!-- ENVELOPE -->
+    <div id="envelope-container">
+      <img src="images/envelopeVAL.png" alt="Envelope" id="envelope" />
+      <p>Can I ask you something?</p>
+      <p id="tap-envelope">tap the envelope...</p>
+    </div>
+
+    <!-- LETTER -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 class="letter-title" id="letter-title">
+          Will you be my Valentine?
+        </h1>
+
+        <img src="images/catGifVAL.gif" class="cat" id="letter-cat" />
+
+        <div class="buttons" id="letter-buttons">
+          <img src="images/yesVAL.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="images/noVAL.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <div id="final-text" class="final-text" style="display: none">
+          <strong>Valentines Date:</strong><br />
+          <span class="final-text2">
+            <strong>February 14, 2026 - 11AM in the morning</strong>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
